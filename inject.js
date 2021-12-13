@@ -182,8 +182,7 @@
                         }
 
                         if (myself){
-                            categories = ["Pyramidal Qualities", "Discrete Qualities"];
-                            //TODO: "Qualities" might also work
+                            categories = ["Quality"];
                         }
                         const wikiButton = createWikiButton(myself);
                         wikiButton.addEventListener("click", () => {
